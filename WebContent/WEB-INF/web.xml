@@ -9,7 +9,7 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-   <servlet>
+  <servlet>
     <description></description>
     <display-name>Upload</display-name>
     <servlet-name>Upload</servlet-name>
@@ -18,5 +18,15 @@
   <servlet-mapping>
     <servlet-name>Upload</servlet-name>
     <url-pattern>/Upload</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletProGress</display-name>
+    <servlet-name>ServletProGress</servlet-name>
+    <servlet-class>com.jim.javaweb.fileupload.ServletProGress</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletProGress</servlet-name>
+    <url-pattern>/ServletProGress</url-pattern>
   </servlet-mapping>
 </web-app>
