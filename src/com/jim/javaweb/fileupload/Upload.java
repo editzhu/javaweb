@@ -94,6 +94,7 @@ public class Upload extends HttpServlet {
 	    e.printStackTrace();
 	    request.setAttribute("upload.message", "上传文件失败！");
 	}
-	request.getRequestDispatcher("/uploadResult.jsp").forward(request, response);
+	// request.getRequestDispatcher("/uploadResult.jsp").forward(request,
+	// response);
     }
 }

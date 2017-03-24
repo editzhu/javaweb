@@ -29,4 +29,14 @@
     <servlet-name>ServletProGress</servlet-name>
     <url-pattern>/ServletProGress</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Model2Servlet</display-name>
+    <servlet-name>Model2Servlet</servlet-name>
+    <servlet-class>com.jim.javaweb.springmvc.Model2Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Model2Servlet</servlet-name>
+    <url-pattern>/Model2Servlet</url-pattern>
+  </servlet-mapping>
 </web-app>
